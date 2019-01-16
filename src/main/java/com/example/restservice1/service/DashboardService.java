@@ -22,7 +22,6 @@ public interface DashboardService {
 	//get the ProductCategory where bestCategory = true
 	List<ProductCategory> getBeseCategory();
 	
-	
 	EmployeeInformation addEmployee(EmployeeInformation empInfo);
 	
 	void deleteEmployee(Long id);
